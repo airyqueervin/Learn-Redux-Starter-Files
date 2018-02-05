@@ -8,7 +8,7 @@ export default class Single extends Component {
   render() {
     return (
       <div className="single-photo">
-        I'm the photo grid
+        I'm a single photo
       </div>
     )
   }
