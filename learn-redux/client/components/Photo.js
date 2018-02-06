@@ -10,7 +10,7 @@ const Photo = ({ post, i, comments, increment }) => (
       </Link> 
 
       <CSSTransitionGroup transitionName="like" transitionEnterTimeout={500} transitionLeaveTimeout={500}>
-        <span key={post.likes} className="likes-heart"></span>
+        <span key={post.likes} className="likes-heart">{post.likes}</span>
       </CSSTransitionGroup>
     </div>
     <figcaption>
